@@ -1,0 +1,14 @@
+AIResume_Matcher/
+│
+├── main.py                     # Entry point of the app
+├── resume_parser.py            # Extract text from PDF/DOCX
+├── summarizer.py               # Summarize resume (local model)
+├── matcher.py                  # Compare summary with job description
+├── notifier.py                 # Simulate WhatsApp/email alert
+├── utils.py                    # Helper functions (logging, file saving)
+├── sample_resume.pdf           # Use this for testing
+├── job_description.txt         # Hardcoded job description
+├── output/
+│   ├── summary.txt
+│   └── result.json
+└── screenshots/                # You will take these
